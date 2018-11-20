@@ -44,14 +44,6 @@ pipeline {
         }
       }
     }
-    stage('Promote to Environments') {
-      when {
-        branch 'master'
-      }
-      steps {
-
-      }
-    }
   }
   post {
     always {
